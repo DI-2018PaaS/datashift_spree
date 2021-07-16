@@ -24,8 +24,8 @@ gem 'uglifier'
 # For rspec you  may need to add them in here or you'll get missing Spree constants
 # TODO - update  sandbox code so it automatically adds Spree gems in here
 
-gem 'spree', '~> 4.1.0.rc1'
-gem 'spree_auth_devise', '~> 4.1.0.rc1'
+gem 'spree', '>=  4.1.0'
+gem 'spree_auth_devise', '>=  4.1.0'
 gem 'spree_gateway', '~> 3.7'
 
 gem 'spree_digital', github: 'spree-contrib/spree_digital', branch: 'master'
